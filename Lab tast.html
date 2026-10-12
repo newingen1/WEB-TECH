@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book donor/book owner</title>
+</head>
+<body>
+	<h1>Book donor/book owner</h1>
+	<br><br><br>
+	<form>
+		<label for="name"> Full name :</label>
+		<input type="text" id ="name" name="name">
+		<br><br><br>
+		
+		<label for="email">Email :</label>
+		<input type="email" id="email" name="email">
+		<br><br><br>
+		
+		<label for="BN">Book name :</label>
+		<input type="text" id="BN" name="BN">
+		<br><br><br>
+		
+		<label for="author">Author :</label>
+		<input type="text" id="author" name="author">
+		<br><br><br>
+		
+		<label for="BC">Book condition</label>
+		<select id="BC" name="BC">
+			<option value="new">NEW</option>
+			<option value="good">Good</option>
+			<option value="used">used</option>
+			
+		</select>
+		<br><br><br>
+		
+		<label for="BO">Book option:</label>
+		<input type="radio" name="BO" value="donate">donate
+		<input type="radio" name="BO" value="lend">Lend
+		<br><br><br>
+		
+		<label for="BD">Book description:</label>
+		<textarea id="BD" name="BD"></textarea>
+		<br><br><br>
+		
+		<input type="submit" value="submit">
+		<input type="reset" value="reset">
+	</form>
+
+</body>
+</html>
