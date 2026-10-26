@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Donor Registration</title>
+	<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 id="page-title">Book Donor / Book Owner Registration</h1>
+	
+	<div class="form-container">
+		<p>Register to donate books or make your books available to others.</p>
+
+    <form>
+        <table>
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="fullname"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" name="phone"></td>
+            </tr>
+
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address"></td>
+            </tr>
+
+            <tr>
+                <td>Book Title:</td>
+                <td><input type="text" name="booktitle"></td>
+            </tr>
+
+            <tr>
+                <td>Book Category:</td>
+                <td>
+                    <select name="category">
+                        <option>Academic</option>
+                        <option>Story</option>
+                        <option>Science</option>
+                        <option>Technology</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Book Condition:</td>
+                <td>
+                    <input type="radio" name="condition" value="new"> New
+                    <input type="radio" name="condition" value="used"> Used
+                </td>
+            </tr>
+
+            <tr>
+                <td>Purpose:</td>
+                <td>
+                    <input type="checkbox" name="purpose" value="donate"> Donate
+                    <input type="checkbox" name="purpose" value="share"> Share
+                </td>
+            </tr>
+
+            <tr>
+                <td>Additional Information:</td>
+                <td><textarea name="information" rows="4" cols="25"></textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+	</div>
+
+</body>
+</html>

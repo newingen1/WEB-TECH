@@ -1,0 +1,100 @@
+
+/*my E-S*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 249, 255);
+    margin: 0;
+    padding: 20px;
+}
+
+/*I-S*/
+#page-title {
+    text-align: center;
+    color: rgb(23, 54, 93);
+    background-color: white;
+	border:1px solid rgb(100, 230, 240);
+    padding: 20px;
+	border-radius:100px;
+    border-bottom: 4px solid rgb(40, 116, 166);
+    box-shadow: 0 3px 6px rgb(204, 204, 204);
+}
+
+/*C-S*/
+.form-container 
+{
+    max-width: 650px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid rgb(221, 240, 200);
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgb(204, 204, 204);
+    position: relative;
+    z-index: 1;
+}
+
+/*P-S*/
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*T-S*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*T-C*/
+td {
+    padding: 10px;
+    vertical-align: center;
+}
+
+/*IFD*/
+input[type="text"],input[type="email"],input[type="password"],input[type="tel"],select,textarea 
+{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: white;
+}
+
+/*IFE*/
+input:focus,select:focus,textarea:focus 
+{
+    border-color: rgb(40, 116, 166);
+    outline: none;
+}
+
+/*RBC*/
+input[type="radio"],input[type="checkbox"] 
+{
+    margin: 5px;
+	cursor: pointer;
+}
+
+/*Res.B*/
+input[type="submit"] 
+{
+    background-color: rgb(40, 116, 166);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+/*HE*/
+input[type="submit"]:hover 
+{
+    background-color: rgb(10, 54, 90);
+}
+
+
+}
